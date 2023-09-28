@@ -2,6 +2,11 @@
 
 int main()
 {
+
+    //https://github.com/UniversityOfPlymouthComputing/SoftwareEngineering/blob/main/docs/level4/variables_and_arithmetic.md#writing-to-the-console-with-cout-c:~:text=Reading%20from%20the%20console%20with%20getchar%20(read%20a%20character)
+
+
+    
     // ************************ Using puts ******************************** 
     puts("Hello World!");   //Write Hello World to the terminal
 
