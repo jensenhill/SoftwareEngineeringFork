@@ -31,7 +31,7 @@ int main()
 
 	//Divide
 	age = 50;
-	age = age / 2;
+	age = age / 0;
 	printf("Half of 50 is %d\n", age);
 	 
 	//Divide and remainder

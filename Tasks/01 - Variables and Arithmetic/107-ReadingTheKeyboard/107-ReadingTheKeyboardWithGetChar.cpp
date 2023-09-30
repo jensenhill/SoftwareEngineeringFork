@@ -9,6 +9,7 @@ int main()
     c = getchar();
 
     //Write the decimal and ASCII representation to the terminal
+
     printf("You typed %c\n", c);
     printf("This has ASCII code %d\n", c);
 

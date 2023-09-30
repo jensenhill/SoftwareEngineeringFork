@@ -10,7 +10,7 @@ int main()
     cout << "Hello World!" << endl;   // Write Hello World to the terminal
 
     // ***************** Using cout with newlines ************************
-    cout << "Hello Everyone.We are using C++\nWe can still use \\n?\n";
+    cout << "Hello Everyone.We are using C++\nWe can still use \n?\n";
 
     // ********************** Setting Precision **************************
     int age = 23;
