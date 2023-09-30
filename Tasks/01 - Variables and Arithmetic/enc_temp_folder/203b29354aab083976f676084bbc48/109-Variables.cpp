@@ -25,7 +25,7 @@ int main()
 	printf("And then after that, you will be %d\n", ageNextYear);
 
 	//Overflow
-	year = 65535;
+	year = 65534;
 	year = year + 1;
 	printf("year = %u\n", year);
 
