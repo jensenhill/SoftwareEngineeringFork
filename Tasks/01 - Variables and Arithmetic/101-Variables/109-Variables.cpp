@@ -31,7 +31,7 @@ int main()
 
 	//Divide
 	age = 50;
-	age = age / 0;
+	age = age / 0; /'/Throws Error, you cannot divide by 0.
 	printf("Half of 50 is %d\n", age);
 	 
 	//Divide and remainder
