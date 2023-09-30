@@ -18,6 +18,6 @@ int main()
 	//This also needs fixing
 	int p = 123;
 	int q = 2;
-	double y = p / q;
+	double y = double(p) / double(q);
 	printf("y = %f\n", y);
 }
