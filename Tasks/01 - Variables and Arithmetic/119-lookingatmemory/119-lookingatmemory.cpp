@@ -5,14 +5,13 @@
 
 int main()
 {
-    unsigned int myVariable;
-    myVariable = 15;    // 000F in Hex, 0000000011111111 in binary
     
-    printf("The value of myVariable is: %d\n", myVariable);
-    printf("The value of myVariable in base 16 (hex) is: %x\n", myVariable);
+    unsigned int number = 10;
+    printf("The HEX value of 10 is \"%x\"", number);
+    printf("\nThe HEX value is stored at %p", &number);
 
-    printf("The address (in hex) of myVariable is %p\n", &myVariable);
-    printf("Size of an integer is %d\n", sizeof(myVariable));
+    return 0;
+
 }
 
 
