@@ -7,6 +7,7 @@ int main()
 
     char userEnteredCharacter;
     char returnKey;
+    bool proceed = true; // Proceed initialised as 0.
 
     do
     {
@@ -15,8 +16,9 @@ int main()
         printf("You typed %c\n", userEnteredCharacter);
         printf("You also pressed return (ASCII %d)\n", returnKey);    //Uncomment this
 
-    //Use either of the following lines (but not both)
-    } while ((userEnteredCharacter != 'q') && (userEnteredCharacter != 'Q'));            //Repeat if condition is met - note the != operator
-    
+        status = ((UserEnteredCharacter != "q") || (UserEnteredCharacter != "Q")); // If character is Q, then 0 (false) is returned.
+
+    } while (status); // continues whilst proceed is true (1).
+
     puts("Finished");
 }
