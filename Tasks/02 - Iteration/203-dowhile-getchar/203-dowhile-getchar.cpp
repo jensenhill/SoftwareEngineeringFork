@@ -18,7 +18,7 @@ int main()
 
         status = ((UserEnteredCharacter != "q") || (UserEnteredCharacter != "Q")); // If character is Q, then 0 (false) is returned.
 
-    } while (status); // continues whilst proceed is true (1).
+    } while (status); // continues whilst proceed is true (1)...
 
     puts("Finished");
 }
