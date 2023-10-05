@@ -15,9 +15,8 @@ int main()
     printf("Finished: i = %d\n", i);
 
 
-    //test
-    //this is a tests
-    //this is a test
+    //This is test #2
+    //This is the third test
 }
 
 
