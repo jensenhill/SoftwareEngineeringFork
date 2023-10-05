@@ -15,6 +15,11 @@ int main()
 
     // TASK A - count from 10 down to 0 in steps of -1
 
+    for (int a = 10; a >= 0; a -= 1)
+    {
+        printf("a = %d", a);
+    }
+
     // TASK B - count from 10 down to -10 in steps of -2
 
     // TASK C - count from 10 to 200 in steps of 10
