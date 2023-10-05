@@ -12,5 +12,5 @@ int main()
         i -= 2;        
     }
 
-    printf("Exiting with i=%d\n", i);
+    printf("Exiting with i=%d\n", i); 
 }
