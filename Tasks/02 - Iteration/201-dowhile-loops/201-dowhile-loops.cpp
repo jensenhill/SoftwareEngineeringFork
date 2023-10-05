@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i = 0;
+    int i = 6;
 
     printf("Start while loop\n");
 
@@ -14,10 +14,6 @@ int main()
 
     printf("Finished: i = %d\n", i);
 
-
-    //This is test #2
-    //This is the third test
-    //This is the fourth test
 }
 
 
