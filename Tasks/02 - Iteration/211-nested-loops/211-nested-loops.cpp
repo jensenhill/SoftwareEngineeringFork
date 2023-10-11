@@ -13,7 +13,22 @@ int main()
             printf("\tInner loop number %d\n", j);  // note the use of the tab (\t) option at the start to improve the layout
             
             //Task - Write another level of nesting here
+            for (int k = 1; k <= 3; k++)
+            {
+                printf("\t\tMore inner loop number %d\n", k);
+            }
 
         }
     }
+
+    //Times tables
+    for (int i = 1; i <= 2; i++)
+    {
+        printf("(%d)\n", i);
+        for (int j = 1; j <= 12; j++)
+        {
+            printf("\t %d x %d = %d \n", j, i, (j * i));
+        }
+    }
+
 }
