@@ -13,4 +13,26 @@ int main()
             printf("\t%d x %d = %d\n", i,j,i*j);  // note the use of the tab (\t) option at the start to improve the layout
         }
     }
+
+
+    int secretNumber = 22;
+
+    switch (secretNumber)
+    {
+    case 0:
+        puts("Not the secret number!");
+        break;
+    case 13:
+        puts("Not the secret number!");
+        break;
+    case 23:
+        puts("You found the secret number!");
+        break;
+    default:
+        puts("The secret number is not here...");
+        break;
+    }
+
+
+
 }

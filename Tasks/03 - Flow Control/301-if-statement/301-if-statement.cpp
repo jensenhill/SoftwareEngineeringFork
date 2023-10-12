@@ -31,6 +31,11 @@ int main()
         cin >> level;
     } while (level < 0);
 
+    if (level == 0)
+    {
+        cout << "Tank is empty" << endl;
+    }
+
     if (level <= low)                       // check the level
     {
         cout << "Tank needs filling" << endl;
