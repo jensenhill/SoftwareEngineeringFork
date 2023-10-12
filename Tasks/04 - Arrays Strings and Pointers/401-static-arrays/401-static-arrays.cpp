@@ -44,13 +44,21 @@ int main()
 
     //Write task 1 solution here
     int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
-
+    for (int i = 0; i < sizeof(nums)/sizeof(int); i++)
+    {
+        sum += nums[i];
+    }
+    cout << "Sum is " << sum << endl;
 
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
     // ***********************************************************************************************************************
 
     //Write task 2 solution here
+    double mean = (sum / ((sizeof(nums) / sizeof(int))));
+
+    cout.precision(1);
+    cout << "Mean is " << std::fixed << mean << endl;
 
 }
 
