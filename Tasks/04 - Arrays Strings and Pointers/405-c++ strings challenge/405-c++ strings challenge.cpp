@@ -2,7 +2,7 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
-#include <cctype>
+
 using namespace std;
 
 int main()
@@ -36,7 +36,9 @@ int main()
     while (iss >> word) {       //Read the next word (if there is one)
         cout << word << endl;   //Output each word in turn
         
-        if (toLower(word) == "the")
+        transform(word.begin(), word.end(), word.begin(), ::tolower);
+
+        if (word == "the")
         {
             count += 1;
         }
