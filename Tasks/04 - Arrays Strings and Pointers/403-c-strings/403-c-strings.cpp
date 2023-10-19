@@ -80,7 +80,7 @@ int main()
     puts(header);
 
     //Concatinating Strings with sprintf
-    sprintf_s(header, "%s %s", moduleName, institutionName);
+    sprintf_s(header, "", moduleName, institutionName);
 
     //Find substrings
     char* loc = strstr(header, "of");
