@@ -44,7 +44,37 @@ int main()
         }
     }
 
-    cout << "There were " << count << " instance(s) of \"the\"." << endl;
+    cout << "There was/were " << count << " instance(s) of \"the\"." << endl;
+
+    //Chalenge 3: Starting with an array of integers, can you write some code to reverse their order?
+
+    //Array to store an array of integers 1-10
+    int integers[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+    //Variable to store the number of elements in the array
+    int length = sizeof(integers) / sizeof(int);
+
+    //Variable to store temporary integer to be swapped
+    int temp = 0;
+
+    //Looping from 1 to half of the length of the array
+    // | Item 0 - Integer 1 | ----> | Item 9 - Integer 10|
+    // | Item 1 - Integer 2 | ----> | Item 8 - Integer 9 | 
+    // ...
+    for (int i = 0; i <= (length / 2); i++)
+    {
+        temp = integers[i];
+        integers[i] = integers[(length - 1) - i];
+        integers[(length - 1) - i] = temp;
+    }
+
+    //Output the sorted integers array
+    // 10,9,8,7,6,5,4,3,2,1
+    for (int i = 0; i <= (length - 1); i++) {
+        cout << integers[i] << ", ";
+    }
+
+
 
 }
 
