@@ -6,7 +6,7 @@
 using namespace std;
 
 
-// Parent class Pet
+// Parent class Pet - called by _client
 class Pet {
 protected:
     int _age;       // The underscore is a convention to remind us this is a protected member
